@@ -204,7 +204,7 @@ return [
     |
     */
 
-    'editor' => 'simplemde',
+    'editor' => 'tinymce',
 
     /*
     |--------------------------------------------------------------------------
@@ -226,8 +226,8 @@ return [
     */
 
     'tinymce' => [
-        'toolbar' => 'bold italic underline | alignleft aligncenter alignright | bullist numlist outdent indent | link image',
-        'plugins' => 'link, image',
+        'toolbar' => 'bold italic underline | alignleft aligncenter alignright | bullist numlist outdent indent | link',
+        'plugins' => 'link',
     ],
 
     /*

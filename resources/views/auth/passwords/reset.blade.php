@@ -18,7 +18,7 @@
                             <div class="col-md-6 col-md-offset-3">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                                    <input id="email" type="email" class="form-control" name="email" value="{{ $email or old('email') }}" required autofocus>
+                                    <input placeholder="Email" id="email" type="email" class="form-control" name="email" value="{{ $email or old('email') }}" required autofocus>
                                 </div>
 
 
@@ -35,8 +35,8 @@
 
                             <div class="col-md-6 col-md-offset-3">
                                 <div class="input-group">
-                                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                                    <input id="password" type="password" class="form-control" name="password" required>
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                    <input placeholder="Password" id="password" type="password" class="form-control" name="password" required>
                                 </div>
 
                                 @if ($errors->has('password'))
@@ -50,8 +50,8 @@
                         <div class="form-group{{ $errors->has('password_confirmation') ? ' has-error' : '' }}">
                             <div class="col-md-6 col-md-offset-3">
                                 <div class="input-group">
-                                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                                    <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                    <input placeholder="Confirm password" id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
                                 </div>
 
 

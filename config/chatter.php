@@ -35,7 +35,7 @@ return [
     'titles' => [
         'discussion'  => 'Discussion',
         'discussions' => 'Discussions',
-        'category'    => 'Category',
+        'category'    => 'Industry',
     ],
 
    /*

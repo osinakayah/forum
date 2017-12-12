@@ -19,6 +19,7 @@ return [
         'post'       => 'posts',
         'register'   => 'register',
         'login'      => 'login',
+        'search'      => 'search',
     ],
 
     /*
@@ -204,7 +205,7 @@ return [
     |
     */
 
-    'editor' => 'simplemde',
+    'editor' => 'tinymce',
 
     /*
     |--------------------------------------------------------------------------
@@ -226,7 +227,7 @@ return [
     */
 
     'tinymce' => [
-        'toolbar' => 'bold italic underline | alignleft aligncenter alignright | bullist numlist outdent indent | link',
+        'toolbar' => 'bold italic underline | link',
         'plugins' => 'link',
     ],
 

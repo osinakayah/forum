@@ -35,7 +35,7 @@
                 </div>
 
                 <div>
-                    <form method="post" action="{{route('chatter.search')}}" class = "navbar-form navbar-right" role = "search">
+                    <form method="post" action="{{route('chatter.search')}}" class = "navbar-form navbar-left" role = "search">
                         {{ csrf_field() }}
                         <div class = "form-group">
                             <input type = "search" name="q" class = "form-control" placeholder = "Discussions Title">

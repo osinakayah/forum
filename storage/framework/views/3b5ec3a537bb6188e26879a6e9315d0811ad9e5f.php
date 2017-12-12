@@ -36,7 +36,7 @@
                 </div>
 
                 <div>
-                    <form method="post" action="<?php echo e(route('chatter.search')); ?>" class = "navbar-form navbar-right" role = "search">
+                    <form method="post" action="<?php echo e(route('chatter.search')); ?>" class = "navbar-form navbar-left" role = "search">
                         <?php echo e(csrf_field()); ?>
 
                         <div class = "form-group">

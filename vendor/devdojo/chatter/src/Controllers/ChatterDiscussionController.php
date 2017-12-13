@@ -171,6 +171,10 @@ class ChatterDiscussionController extends Controller
         return false;
     }
 
+    public function postImage(Request $request){
+        return response()->json(['success'=>false, 'url'=>'http://123.0.0.1']);
+    }
+
     /**
      * Display the specified resource.
      *

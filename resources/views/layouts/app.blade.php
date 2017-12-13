@@ -90,5 +90,7 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
     @yield('js')
+
+    <script src="{{ asset('js/trumbowyg.upload.min.js') }}"></script>
 </body>
 </html>

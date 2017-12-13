@@ -205,7 +205,7 @@ return [
     |
     */
 
-    'editor' => 'tinymce',
+    'editor' => 'trumbowyg',
 
     /*
     |--------------------------------------------------------------------------
@@ -227,8 +227,8 @@ return [
     */
 
     'tinymce' => [
-        'toolbar' => 'bold italic underline | link',
-        'plugins' => 'link',
+        'toolbar' => 'bold italic underline | link image',
+        'plugins' => 'link image',
     ],
 
     /*

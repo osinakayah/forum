@@ -93,5 +93,7 @@
     <!-- Scripts -->
     <script src="<?php echo e(asset('js/app.js')); ?>"></script>
     <?php echo $__env->yieldContent('js'); ?>
+
+    <script src="<?php echo e(asset('js/trumbowyg.upload.min.js')); ?>"></script>
 </body>
 </html>

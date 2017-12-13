@@ -1,36 +1,64 @@
 function initializeNewTrumbowyg(id){
     $('#'+id).trumbowyg({
+        fullscreenable: false,
+        btnsDef: {
+            // Create a new dropdown
+            image: {
+                dropdown: ['insertImage', 'upload'],
+                ico: 'insertImage'
+            }
+        },
         btns: [
             ['viewHTML'],
             ['formatting'],
             'btnGrp-semantic',
             ['link'],
-            ['insertImage'],
+            ['image'],
             'btnGrp-justify',
             'btnGrp-lists',
             ['horizontalRule'],
             ['removeformat'],
             ['preformatted'],
             ['fullscreen']
-        ]
+        ],
+        plugins: {
+            upload: {
+                serverPath: '/post_image',
+                fileFieldName: 'image',
+            }
+        }
     });
 }
 
 $('document').ready(function() {
     $('.trumbowyg').trumbowyg({
+        fullscreenable: false,
+        btnsDef: {
+            // Create a new dropdown
+            image: {
+                dropdown: ['insertImage', 'upload'],
+                ico: 'insertImage'
+            }
+        },
         btns: [
             ['viewHTML'],
             ['formatting'],
             'btnGrp-semantic',
             ['link'],
-            ['insertImage'],
+            ['image'],
             'btnGrp-justify',
             'btnGrp-lists',
             ['horizontalRule'],
             ['removeformat'],
             ['preformatted'],
             ['fullscreen']
-        ]
+        ],
+        plugins: {
+            upload: {
+                serverPath: '/post_image',
+                fileFieldName: 'image',
+            }
+        }
     });
 
     document.getElementById('new_discussion_loader').style.display = "none";

@@ -2,3 +2,7 @@
 	background-color: #ff6e40 !important;
 	color: white !important;
 }
+
+.trumbowyg-modal-box form {
+	display: block !important;
+}
